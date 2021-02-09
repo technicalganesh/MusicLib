@@ -1,0 +1,277 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Web/Music.Web.csproj": {}
+  },
+  "projects": {
+    "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/Music.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/Music.Entities.csproj",
+        "projectName": "Music.Entities",
+        "projectPath": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/Music.Entities.csproj",
+        "packagesPath": "/Users/ganesh/.nuget/packages/",
+        "outputPath": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ganesh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Standards/Music.Standards.csproj": {
+                "projectPath": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Standards/Music.Standards.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Standards/Music.Standards.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Standards/Music.Standards.csproj",
+        "projectName": "Music.Standards",
+        "projectPath": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Standards/Music.Standards.csproj",
+        "packagesPath": "/Users/ganesh/.nuget/packages/",
+        "outputPath": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Standards/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ganesh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Store/Music.Store.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Store/Music.Store.csproj",
+        "projectName": "Music.Store",
+        "projectPath": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Store/Music.Store.csproj",
+        "packagesPath": "/Users/ganesh/.nuget/packages/",
+        "outputPath": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Store/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ganesh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/Music.Entities.csproj": {
+                "projectPath": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/Music.Entities.csproj"
+              },
+              "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Standards/Music.Standards.csproj": {
+                "projectPath": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Standards/Music.Standards.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Web/Music.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Web/Music.Web.csproj",
+        "projectName": "Music.Web",
+        "projectPath": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Web/Music.Web.csproj",
+        "packagesPath": "/Users/ganesh/.nuget/packages/",
+        "outputPath": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Web/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ganesh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/Music.Entities.csproj": {
+                "projectPath": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/Music.Entities.csproj"
+              },
+              "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Standards/Music.Standards.csproj": {
+                "projectPath": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Standards/Music.Standards.csproj"
+              },
+              "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Store/Music.Store.csproj": {
+                "projectPath": "/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Store/Music.Store.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

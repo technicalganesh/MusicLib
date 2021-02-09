@@ -1,0 +1,11 @@
+/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/bin/Debug/netstandard2.0/Music.Entities.deps.json
+/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/bin/Debug/netstandard2.0/Music.Entities.dll
+/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/bin/Debug/netstandard2.0/Music.Entities.pdb
+/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/obj/Debug/netstandard2.0/Music.Entities.csprojAssemblyReference.cache
+/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/obj/Debug/netstandard2.0/Music.Entities.AssemblyInfoInputs.cache
+/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/obj/Debug/netstandard2.0/Music.Entities.AssemblyInfo.cs
+/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/obj/Debug/netstandard2.0/Music.Entities.dll
+/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/obj/Debug/netstandard2.0/Music.Entities.pdb
+/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/bin/Debug/netstandard2.0/Music.Standards.dll
+/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/bin/Debug/netstandard2.0/Music.Standards.pdb
+/Users/ganesh/Downloads/DemoDotnet/DemoMusic/Music.Entities/obj/Debug/netstandard2.0/Music.Entities.csproj.CopyComplete
